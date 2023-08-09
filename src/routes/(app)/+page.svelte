@@ -1,9 +1,12 @@
 <div class="px-4">
+    <div
+        class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-0 left-0 z-0"
+    />
     <section
-        class="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]"
+        class="bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')] relative"
     >
         <div
-            class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative"
+            class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10"
         >
             <a
                 href="#"
@@ -45,23 +48,47 @@
                 you own on a scam ERC-20 contract. It's time for a change!
             </p>
         </div>
-        <div
-            class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-0 left-0 z-0"
-        />
+        <div class="flex flex-row justify-evenly mt-8">
+            <div
+                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-neutral-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            >
+                <h5
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                    No Setup Required
+                </h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">
+                    No more creating a backend and signing-up for private nodes
+                    just to test things.
+                </p>
+            </div>
+            <div
+                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-neutral-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            >
+                <h5
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                    Cross Platform
+                </h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">
+                    Get the data you need through http calls, no web3 client
+                    support required. Perfect for game engines and IOT
+                    developments.
+                </p>
+            </div>
+            <div
+                class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-neutral-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            >
+                <h5
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                    Create Your Own
+                </h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">
+                    Can't find the API you're looking for? Head to 'Custom'
+                    section and create your own in under 5 minutes.
+                </p>
+            </div>
+        </div>
     </section>
-
-    <a
-        href="#"
-        class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-neutral-800 dark:border-gray-700 dark:hover:bg-gray-700"
-    >
-        <h5
-            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-        >
-            Noteworthy technology acquisitions 2021
-        </h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-        </p>
-    </a>
 </div>
