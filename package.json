@@ -10,6 +10,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
+    "@skeletonlabs/skeleton": "^1.11.0",
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/kit": "^1.20.4",
     "autoprefixer": "^10.4.14",
@@ -27,8 +28,6 @@
     "@popperjs/core": "^2.11.8",
     "@supabase/supabase-js": "^2.32.0",
     "ethers": "^6.7.0",
-    "flowbite": "^1.8.1",
-    "flowbite-svelte": "^0.41.2",
     "svelte-jsoneditor": "^0.17.8",
     "tailwind-merge": "^1.14.0"
   }
