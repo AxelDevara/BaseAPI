@@ -1,6 +1,10 @@
-<script>
+<script lang="ts">
     import { TableOfContents } from "@skeletonlabs/skeleton";
     import { page } from "$app/stores";
+    
+
+				
+				
 </script>
 
 <aside
